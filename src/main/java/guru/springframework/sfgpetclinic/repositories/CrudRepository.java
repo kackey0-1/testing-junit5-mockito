@@ -53,7 +53,7 @@ public interface CrudRepository<T, ID> extends Repository<T, ID> {
      * @param ids
      * @return
      */
-    Iterable<T> findAllById(Iterable<ID> ids);
+    Iterable<T> findAllById(long ids);
 
     /**
      * Returns the number of entities available.
